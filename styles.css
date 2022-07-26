@@ -12,12 +12,12 @@
 body {
     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: black;
 }
 
 a {
     font-size: 21px;
-    color: white;
+    color: black;
 }
 
 /* nav styling*/
@@ -100,10 +100,18 @@ line-height: 1.5rem;
     border-radius: 10px;
 } */
 
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 48px;
+}
+
+
 .second-section img{
     height: 35em;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
+
 
