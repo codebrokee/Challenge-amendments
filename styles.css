@@ -15,6 +15,12 @@ body {
     color: black;
 }
 
+.body-div{
+    padding: 0 25px;
+
+}
+
+
 a {
     font-size: 21px;
     color: black;
@@ -27,57 +33,56 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: blue;
+    height: 700px;
 }
 
 
 /*nav-items styling*/
 
+.nav-items {
+    background-image: url('assets/shoe.jpg');
+    /* height: 100vh; */
+    /* width: 50%; */
+    
+}
 .nav-items ul {
     display: flex;
     gap: 80px;
+    
 }
 
 
 /* main image styling */
 
-.main-img {
-    /* background: url('assets/shoe.jpg');
-    background-size: cover;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1; */
-}
+
 
 /* first section text styling*/
 span {
     color: red;
 }
 
-h1{
-font-size: 3rem;
-  margin-top: 2em;
-  line-height: 3.3rem;
+h1 {
+    font-size: 3rem;
+    margin-top: 2em;
+    line-height: 3.3rem;
 }
 
-.main-section{
-margin: 25px;
+.main-section {
+    margin: 25px;
+    display: flex;
 }
 
-.subhead{
-font-size: 1.4rem;
+.subhead {
+    font-size: 1.4rem;
 }
 
-.title{
+.title {
     font-weight: bold;
     font-size: 1.25rem;
-  }
+}
 
-.desc{
-line-height: 1.5rem;
+.desc {
+    line-height: 1.5rem;
 }
 
 
@@ -100,18 +105,26 @@ line-height: 1.5rem;
     border-radius: 10px;
 } */
 
-.second-section{
+.second-section {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 48px;
 }
 
 
-.second-section img{
+.second-section img {
     height: 35em;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
+.txt-content{
+    align-self: center;
+}
 
+@media only screen and (min-width: 786px) {
+    .hero-img{
+        display: none;
+    }
+  }
