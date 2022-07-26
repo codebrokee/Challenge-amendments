@@ -4,5 +4,106 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    text-decoration: none;
+}
+
+/* backgroundgradient and global font*/
+
+body {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+a {
+    font-size: 21px;
+    color: white;
+}
+
+/* nav styling*/
+
+.nav-container {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+
+/*nav-items styling*/
+
+.nav-items ul {
+    display: flex;
+    gap: 80px;
+}
+
+
+/* main image styling */
+
+.main-img {
+    /* background: url('assets/shoe.jpg');
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1; */
+}
+
+/* first section text styling*/
+span {
+    color: red;
+}
+
+h1{
+font-size: 3rem;
+  margin-top: 2em;
+  line-height: 3.3rem;
+}
+
+.main-section{
+margin: 25px;
+}
+
+.subhead{
+font-size: 1.4rem;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+.desc{
+line-height: 1.5rem;
+}
+
+
+
+
+/* arrow svg styling */
+
+.down-arrow {
+    width: 1em;
+    padding-top: 20px;
+}
+
+
+
+/* second section image and text styling */
+
+/* .imgs{
+    height: 35em;
+    width: 100%;
+    border-radius: 10px;
+} */
+
+.second-section img{
+    height: 35em;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
